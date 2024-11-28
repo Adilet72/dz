@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    height: 100vh;
+    background-color: white;
+}
+
+.container {
+    width: 800px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    max-height: 200px;
+}
+
+.days {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.days span {
+    color: grey;
+    margin-right: 240px;
+}
+
+.days .active {
+    color: white;
+    font-weight: bold;
+}
+
+.time {
+    font-size: 48px;
+    margin-top: 70px;
+}
